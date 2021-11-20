@@ -1,0 +1,20 @@
+{
+  "name": "cisc-website",
+  "version": "1.0.0",
+  "description": "College of Information Science and Computing official website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "author": "Jayclyde Taguines",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "autoprefixer": "^10.4.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-icons": "^1.7.1"
+  },
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
+}

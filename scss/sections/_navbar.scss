@@ -1,0 +1,25 @@
+@use '../custom' as *;
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar .navbar-brand{
+    background-color: $background;
+    color: $secondary;
+    font-weight: bold;
+    font-size: x-large;
+    height: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+@media (min-width: 576px) {
+    .navbar .navbar-brand {
+        font-size: xx-large;
+        height: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

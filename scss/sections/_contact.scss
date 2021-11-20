@@ -1,0 +1,16 @@
+
+
+@use '../custom' as *;
+
+.contact-section {
+    
+    background-color: $background;
+    height: 100%;
+
+}
+
+.form-control {
+    background-color: $surface;
+    border: black;
+    
+}
