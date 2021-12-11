@@ -11196,11 +11196,13 @@ textarea.form-control-lg {
 .course-img {
   padding-top: 0px;
   padding-bottom: 0px;
+  max-width: 250px;
 }
 
 @media (min-width: 576px) {
   .course-img {
     padding: 3rem;
+    max-width: 400px;
   }
 }
 .course-card {
